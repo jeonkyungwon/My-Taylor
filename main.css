@@ -1,0 +1,21 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 400px;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+    border: 5px solid pink;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+  }
+  input[type=image] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  

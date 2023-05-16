@@ -1,0 +1,33 @@
+html, body{
+  width: 100%;
+  height: 100%;
+}
+.bx-wrapper, .bx-viewport, .slider{
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  position: absolute;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  width: 99%;
+  height: 15%;
+  background: #404040;
+  border-radius: 20px;
+}
+.banner-title {
+    position: absolute;
+    width: 336px;
+    height: 78px;
+    left: 34%;
+    top: 20%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF98A8;
+}

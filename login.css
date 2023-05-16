@@ -1,0 +1,85 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+  }
+  .bx-wrapper, .bx-viewport, .slider{
+    width: 100%;
+    height: 100%;
+  }
+  .banner {
+    position: absolute;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    height: 15%;
+    background: #404040;
+    border-radius: 20px;
+  }
+  .banner-title {
+      position: absolute;
+      width: 336px;
+      height: 78px;
+      left: 34%;
+      top: 20%;
+  
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 18px;
+      text-align: center;
+      color: #FF98A8;
+  }
+.login-wrapper{
+    width: 600px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+    position: absolute; /* 위치 지정을 위한 속성 추가 */
+    top: 36%;
+    left: 20%;
+}
+
+.login-wrapper > h2{
+    font-size: 72px;
+    color: #FF98A8;
+    margin-bottom: 20px;
+}
+#login-form > input{
+    width: 100%;
+    height: 88px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+#login-form > input::placeholder{
+    color: #D2D2D2;
+}
+#login-form > input[type="submit"]{
+    color: #fff;
+    font-size: 24px;
+    background: #404040;
+    margin-top: 20px;
+}
+#login-form > input[type="checkbox"]{
+    display: none;
+}
+#login-form > label{
+    color: #999999;
+}
+#login-form input[type="checkbox"] + label{
+    cursor: pointer;
+    padding-left: 26px;
+    background-image: url("checkbox.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#login-form input[type="checkbox"]:checked + label{
+    background-image: url("checkbox-active.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

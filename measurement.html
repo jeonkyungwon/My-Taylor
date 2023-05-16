@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="measure.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<body>
+	<div class="banner">
+		<h1 class="banner-title">My<br><br><br><br>Taylor</h1>
+	</div>
+	<img src="" id="photoImg" width="100px" height="100px" style="display:none;">
+		<!-- 
+				특정확장자만 선택시 : accept=".jpg,.jpeg,.png,.gif,.bmp" 
+				input file 사용시 여러파일 동시에 선택하기 : <input type="file" multiple>  multiple 만 써 주면 된다.
+			-->
+	<input type="file" name="photoFile" id="photoFile" accept="image/*" capture="camera" style="display:none;">
+	<br>
+	<div style="text-align: center; padding-top: 850px;">
+		<img src="./Main_image\camera-gd453b9f2e_1280.png" alt="이미지설명" width="50%" height="50%" onclick="$('#photoFile').click()">
+	</div>			
+	<br>
+	<div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
+  .bx-wrapper, .bx-viewport, .slider{
+    width: 100%;
+    height: 100%;
+  }
+  .banner {
+    position: absolute;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    height: 15%;
+    background: #404040;
+    border-radius: 20px;
+  }
+  .banner-title {
+      position: absolute;
+      width: 336px;
+      height: 78px;
+      left: 34%;
+      top: 20%;
+  
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 18px;
+      text-align: center;
+      color: #FF98A8;
+  }
+  .banner-menu4 {
+    position: absolute;
+    width: 80px;
+    height: 59px;
+    left: 88%;
+    top: 58%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1px;
+
+    display: flex;
+    text-align: center;
+
+    color: rgba(254, 252, 255, 0.89);
+  }
+  .banner-menu4 a:link,
+  .banner-menu4 a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+
+  .container_c {
+    flex-wrap: wrap;
+    top: 23%;
+    left: 28%;
+    position: absolute;
+    text-align: center;
+    margin-left: -234px;
+    margin-top: -109px;
+    z-index: 20;
+    height: 1200px; /* 높이 추가 */
+  }
+  
+  .큰칸 {
+    width: 435px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px; /* margin 값 조정 */
+    background: rgba(64, 64, 64, 0.04);
+  }
+  
+  .큰칸 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
